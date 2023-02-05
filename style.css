@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background-image: url("/assests/bgc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Nav Section */
+nav {
+    padding: 20px 10%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    font-weight: 200;
+    color: #A555EC;
+    text-decoration: none;
+}
+nav div li img {
+    width: 100px;
+}
+nav div button {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #D61355;
+}
+/* Body Section */
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+}
+h1 {
+    color: #243763; 
+}
+main button {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #D61355;
+}
+/* Footer Section */
+.scrl-btn {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
